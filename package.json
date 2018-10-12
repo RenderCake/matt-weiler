@@ -11,10 +11,14 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "emotion": "^9.2.12",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-emotion": "^9.2.12",
+    "react-icons": "^3.2.0",
     "react-router": "^4.2.0",
-    "react-static": "^5.9.9"
+    "react-static": "^5.9.9",
+    "react-static-plugin-emotion": "^1.0.6"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",

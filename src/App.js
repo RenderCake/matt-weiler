@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { hot } from "react-hot-loader";
+
+import Nav from "./components/nav";
 //
-import "./app.css";
-import logo from "./logo.png";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Nav />
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Matt Weiler Test Site</h1>
         </header>
       </div>
